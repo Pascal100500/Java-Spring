@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Информация о магазине</title>
+</head>
+<body>
+
+<h1>Информация о магазине</h1>
+
+<h2 th:text="${shop.name}"></h2>
+
+<p>Адрес: <span th:text="${shop.address}"></span></p>
+<p>Телефон: <span th:text="${shop.phone}"></span></p>
+<p>Email: <span th:text="${shop.email}"></span></p>
+<p>Сайт: <span th:text="${shop.website}"></span></p>
+<p>Категория: <span th:text="${shop.category}"></span></p>
+<p>Описание: <span th:text="${shop.description}"></span></p>
+
+</body>
+</html>
