@@ -1,0 +1,11 @@
+Логин: recipeuser
+
+Пароль: recipe123
+
+Адреса для проверки Spring Security:
+
+http://localhost:8080/recipes/1/full — полный рецепт.
+
+http://localhost:8080/recipes?ingredient=сыр — поиск по ингредиенту.
+
+http://localhost:8080/recipes/random — случайный рецепт.
